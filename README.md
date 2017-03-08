@@ -17,8 +17,14 @@ Schedules a task to run every hour that opens up a url in the random.txt file
 - if random.cfg is not in directory, program will use default links
 
 ##How to remove:
-auto
+####auto
 - run srry program
-manual
+####manual
 - delete folder C:\dEkota
 - remove task chckyrself from task scheduler "SchTasks /Delete /tn "chckyrslf" /f"
+
+##Compiling the executable
+
+    pyinstaller.exe --onefile --hidden-import=subprocess --hidden-import=time --hidden-import=subprocess --hidden-import=os chckyrself.py
+
+    pyinstaller.exe --onefile --hidden-import=shutil --hidden-import=subprocess sorry.py
