@@ -9,7 +9,7 @@ Schedules a task to run every hour that opens up a url in the random.txt file
 - adjusting the propability of a link opening every hour with the threshold
 - added youtube links will unmute and max out volumne
 
-##How to work it:
+## How it works:
 - add your urls to the random.cfg file and sepearte each link by a new line
 - theshold is the probability of a link opening every hour
 - threshold should be in the first line and value between 0 and 1
